@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  justify-content: center;    /* centro horizontal */
+  align-items: center;        /* centro vertical */
+  height: 100vh;              /* ocupa toda a tela */
+  margin: 0;
+  background-color: lightblue;
+  flex-direction: column;     /* mantém o h1 acima da seção */
+}
+
+.center{
+    text-align: center;    
+}
+
+.botao {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
