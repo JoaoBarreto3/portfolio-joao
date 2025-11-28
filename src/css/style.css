@@ -82,16 +82,14 @@ section ul{
   margin-bottom: 30px;
 }
 
-.container img{
+.container img {
   width: 100%;
-  max-width: 600px;
-  height: 450px;
-  object-fit: contain; 
-  background-color: #111;
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
   display: block;
-  margin: 0 auto 30px auto;
-  padding: 10px;     
-  border-radius: 8px;    
+  margin-bottom: 10px;
 }
 
 
