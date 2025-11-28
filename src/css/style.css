@@ -66,14 +66,12 @@ section ul{
 
 .container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  flex-wrap: wrap;
-  column-gap: 30px;
-  row-gap: 30px;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+  align-items: start;
 }
+
 
 .container-projetos{
   display: flex;
@@ -85,13 +83,17 @@ section ul{
 }
 
 .container img{
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   height: 450px;
-  object-fit: cover;
+  object-fit: contain; 
+  background-color: #111;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
+  padding: 10px;     
+  border-radius: 8px;    
 }
+
 
 .container p{
   text-align: center;
